@@ -1,0 +1,101 @@
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main(){
+	string a;
+	cout << "ENGINEERING TERM";
+	cin >> a;
+	
+	if(a == "ENGINEERING"){
+		cout << "application of scientific mathematical principles" << endl;
+	}
+	else if(a == "SINX"){
+		 cout << "is equal to 1/cscx" << endl;
+	}
+	else if(a == "COSX"){
+		 cout << "is equal to 1/secx" << endl;
+	}
+	else if(a == "TANX"){
+		 cout << "is equal to 1/cotx" << endl;
+	}
+	else if(a == "PYTHAGOTEAN THEOREM"){
+		 cout << "c² = a² + b²" << endl;
+	}
+	else if(a == "DIFFERENTIAL CALCULUS"){
+		 cout << "deals with the rate of change" << endl;
+	}
+	else if(a == "INTEGRAL"){
+		 cout << "area under the curve defined by a function of a specific integral" << endl;
+	}
+	else if(a == "CHEMISTRY"){
+		 cout << "central science" << endl;
+	}
+	else if(a == "AREA OF A CIRCLE"){
+		 cout << "πr²" << endl;
+	}
+	else if(a == "AREA OF A SQUARE"){
+		 cout << "width x length" << endl;
+	}
+	else if(a == "volume of a sphere"){
+		 cout << "4/3 πr³" << endl;
+	}
+	else if(a == "areq of a triangle"){
+		 cout << "½bh" << endl;
+	}
+	else if(a == "Tensile strength"){
+		 cout << "maximum stress thatca material can withstand" << endl;
+	}
+	else if(a == "compressive strength"){
+		 cout << "withstand compressive forces" << endl;
+	}
+	else if(a == "ALGORITHM"){
+		 cout << "set of instructions solving a problem " << endl;
+	}
+	else if(a == "microprocessor"){
+		 cout << "central processing unit of a computer" << endl;
+	}
+	else if(a == "MEMORY"){
+		 cout << "storage decice for data" << endl;
+	}
+	else if(a == "DEBUGGING"){
+		 cout << "identifies and fixes errors" << endl;
+	}
+	else if(a == "VERSION CONTROL"){
+		 cout << "manages changes to database" << endl;
+	}
+	else if(a == "HTML"){
+		 cout << "HYPERTEXT MARKUP LANGUAGE" << endl;
+	}
+	else if(a == "JAVASCRIPT"){
+		 cout << "client side scripting language" << endl;
+	}
+	else if(a == "process management"){
+		 cout << "manages running programs" << endl;
+	}
+	else if(a == "authentication"){
+		 cout << "verifies user identities" << endl;
+	}
+	else if(a =="authorization"){
+		 cout << "controls access to resources" << endl;
+	}
+	else if(a == "encryption"){
+		 cout << "protects data with secret codes" << endl;
+	}
+	else if(a == "firewalls"){
+		 cout << "blocks unauthorized network access" << endl;
+	}
+	else if(a == "java"){
+		 cout << "an object oriented programming language" << endl;
+	}
+	else if(a == "image processing"){
+		 cout << "manipulation and analysis of image" << endl;
+	}
+	else if(a == "sensor"){
+		 cout << "A device that detects and measures physical parameters" << endl;
+	}
+	
+
+	
+	return 0;
+}
